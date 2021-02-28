@@ -1,0 +1,182 @@
+html{
+    text-align: center;
+    background-image: url(background.jpg);
+   
+}
+
+.viewMain{
+
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+
+    border-top: 20px solid #FAFBD2;
+    border-left: 20px solid #F08080;
+    border-right: 20px solid #ADD8E6;
+    border-bottom: 20px solid #90EF91;
+
+
+
+
+    color: #FFFFFF;
+    text-shadow: 0 0 10px #FFFFFF;
+}
+
+label{
+    width: 30%;
+
+    font-size: 65px;
+}
+@media only screen and (max-width: 800px) {
+    label{
+        font-size: 20px;
+    }
+
+
+}
+
+@media only screen and (max-width: 1250px) {
+    .fruits{
+
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .mainText{
+        font-size: 15px;
+    }
+    img{
+        display: block;
+    }
+}
+
+img{
+    height: auto;
+    display:inline;
+    border-top: 5px solid #FAFBD2;
+    border-left: 5px solid #F08080;
+    border-right: 5px solid #ADD8E6;
+    border-bottom: 5px solid #90EF91;
+    
+}
+
+.buttonStart {
+    box-shadow: 0px 10px 14px -7px #3e7327;
+    background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+    background-color:#77b55a;
+    border-radius:4px;
+    border:1px solid #4b8f29;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:13px;
+    font-weight:bold;
+    padding:6px 12px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #5b8a3c;
+}
+.buttonStart:hover {
+    background:linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+    background-color:#72b352;
+}
+.buttonStart:active {
+	position:relative;
+	top:1px;
+}
+
+@keyframes winAnimation{
+    0%{
+        border-top: 5px solid red;
+        border-left: 5px solid white;
+        border-right: 5px solid white;
+        border-bottom: 5px solid white;
+    }
+    25%{
+        border-top: 5px solid white;
+        border-left: 5px solid red;
+        border-right: 5px solid white;
+        border-bottom: 5px solid white;
+    }
+    50%{
+        border-top: 5px solid white;
+        border-left: 5px solid white;
+        border-right: 5px solid white;
+        border-bottom: 5px solid red;
+    }
+    75%{
+        border-top: 5px solid white;
+        border-left: 5px solid white;
+        border-right: 5px solid red;
+        border-bottom: 5px solid white;
+    }
+    100%{
+        border-top: 5px solid red;
+        border-left: 5px solid white;
+        border-right: 5px solid white;
+        border-bottom: 5px solid white;
+    }
+
+}
+
+@keyframes animacja{
+    0% {color: aqua}
+    20% {color:chartreuse}
+    40% {color:deeppink}
+    60% {color:dodgerblue}
+    80% {color:darkorange}
+    100% {color:yellow}
+}
+
+#rates{
+
+    font-size: 65px;
+}
+
+
+#logout{
+    text-align: right;
+    text-decoration-line: underline;
+    color: white;
+}
+
+.win{
+    animation-name: animation;
+    animation-duration: 3s;
+    animation-iteration-count: 10000;
+
+}
+
+.circle {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+@keyframes animation
+{
+  0% { background-color: #76EC00 }
+  10% { background-color: #DF111C }
+    20% { background-color: yellow }
+    30% { background-color: #8FF7CF }
+    40% { background-color: #FF7F27 }
+    50% { background-color: #FF409F }
+    60% { background-color: blue}
+    70% { background-color: blueviolet}
+    80% { background-color: dodgerblue}
+    90% {background-color: red}
+    100%{background-color: magenta}
+}
+
+
+
+
+
+
+
+
+ 
+

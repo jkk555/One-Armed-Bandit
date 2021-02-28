@@ -1,0 +1,109 @@
+html {
+    height: 100%;
+  }
+  body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: linear-gradient(#141e30, #243b55);
+  }
+  
+  .login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+  }
+  
+  .login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .login-box .user-box {
+    position: relative;
+  }
+  
+  .login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  .login-box .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .login-box form a {
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    text-decoration: none;
+    overflow: hidden;
+    color: white;
+  }
+
+  .button {
+    box-shadow:inset 0px 0px 15px 3px #23395e;
+    background:linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+    background-color:#2e466e;
+    border-radius:17px;
+    border:1px solid #1f2f47;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    padding:6px 13px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #263666;
+}
+.button:hover {
+	background:linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+	background-color:#415989;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+
+  .title{
+    animation-name: animacja;
+    animation-duration: 2s;
+    animation-iteration-count: 100000000;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+
+
+@keyframes animacja{
+    0% {color: aqua}
+    20% {color:chartreuse}
+    40% {color:deeppink}
+    60% {color:dodgerblue}
+    80% {color:darkorange}
+    100% {color:yellow}
+}
